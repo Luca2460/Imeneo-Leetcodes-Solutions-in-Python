@@ -11,5 +11,10 @@ def solution(x):
         rev = 10*rev + pop
     return rev
 
+    # TIME complexity: O(log(N)), where N is the input integer.
+    # Explaination: either as N has roughly log(N) digits or as the for cycle iterates over roughly log(x) elements
+
+    # SPACE complexity: O(1), the number of allocated variables is constant no matter the input
+
 x= 134
 print(solution(x))
