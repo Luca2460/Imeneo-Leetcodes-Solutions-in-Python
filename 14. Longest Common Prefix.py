@@ -15,4 +15,4 @@ class Solution:
 
 strs = ["flower", "flaw", "flute"]
 
-print(Solution.longestCommonPrefix(Solution, strs))
+print(Solution.longestCommonPrefix(Solution, strs)) 
