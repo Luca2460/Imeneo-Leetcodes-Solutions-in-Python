@@ -12,4 +12,4 @@ def twoSum(numbers: List[int], target: int) -> List[int]: # I came up with it my
             i = i + 1
     
     # TIME complexity: O(N), where N is the length of the list, as we do a single pass over the list using the for cycle
-    # SPACE complexity: O(1)
+    # SPACE complexity: O(1) 
