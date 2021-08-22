@@ -1,4 +1,4 @@
-def twoSum(self, numbers: List[int], target: int) -> List[int]: # I came up with it myself
+def twoSum(numbers: List[int], target: int) -> List[int]: # I came up with it myself
     i = 0
     j = len(numbers) - 1
     
