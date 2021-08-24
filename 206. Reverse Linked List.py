@@ -52,10 +52,10 @@ class Solution:
             return head
         
         newHead = self.reverseList(head.next) # solve the next of the list before I change head.next
-        
+
         if not head.next.next: # if I am at the last but one node or earlier, make the next node point to me
             head.next.next = head
-            head.next = None # set next head to None, otherwise the last node in the recursion (the first in the list) will have its next still pointing towards the second one
+            head.next = None
             
         return newHead
 
