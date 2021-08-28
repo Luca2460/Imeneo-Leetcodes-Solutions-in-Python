@@ -47,6 +47,9 @@ class MyCircularQueue:
         if self.queue[self.tail] != None:
             return True
         return False
+
+    # TIME complexity: Insertion O(1), Removal O(1)
+    # SPACE complexity: O(N), N is the size of the queue
         
 
 
