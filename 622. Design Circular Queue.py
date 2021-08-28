@@ -21,7 +21,7 @@ class MyCircularQueue:
         self.tail = (self.tail + 1) % self.size 
         return True
 
-    def deQueue(self) -> bool:
+    def deQueue(self) -> bool: 
         if self.queue[self.head] == None:
             return False
         self.queue[self.head] = None
