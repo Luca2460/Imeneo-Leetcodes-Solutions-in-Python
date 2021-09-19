@@ -61,3 +61,5 @@ class Solution:
 #         if rootLeft.val != rootRight.val: return False
         
 #         return self.isSymmetricAux(rootLeft.left, rootRight.right) and self.isSymmetricAux(rootLeft.right, rootRight.left)
+          # TIME complexity: O(N) needs to visit every node
+          # SPACE complexity: O(logN) for a balanced tree, as we only keep 1 branch in memory at the time. O(N) worst case if the tree is only made up of 2 specular branches.
