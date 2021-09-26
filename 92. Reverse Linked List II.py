@@ -10,16 +10,23 @@ class Solution:
         
         if left == right:
             return head
+
+        n = None
+        left_node = head
         
-        n = head
+        for i in range(left-1):
+            n = left_node
+            left_node = left_node.next
         
-        for i in range(left-2):
-            n = n.next
+        # n = head
+        
+        # for i in range(left-2):
+        #     n = n.next
             
-        if left == 1: # have to return right node rather than head
-            left_node = head
-        else:
-            left_node = n.next
+        # if left == 1: # have to return right node rather than head
+        #     left_node = head
+        # else:
+        #     left_node = n.next
            
         curr = left_node.next
         old = left_node
